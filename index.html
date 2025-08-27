@@ -2,69 +2,289 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>benardhaxhijaj</title>
+    <title>Korea Origin Imports | Certified Vehicles</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/main.js" defer></script>
   </head>
   <body>
-    <div class="logo">
-      <a href="#">benardhaxhijaj</a>
-    </div>
-    <div class="sidebar">
-      <div class="sidebar-item">
-        <p>...is the ultimate sophistication. </br>(Code Canvas)</p>
+    <div class="top-banner">zero finance available</div>
+    <header class="main-header">
+      <div class="container nav-flex">
+        <a href="#" class="logo" aria-label="Korea Origin Imports">
+          <img
+            src="/img/coda(1).svg"
+            alt="Korea Origin Imports Logo"
+            class="logo-img"
+          />
+        </a>
+        <nav class="main-nav">
+          <a href="#process" class="nav-link">Procesi Ynë</a>
+          <a href="#vehicles" class="nav-link">Kërko Veturën</a>
+          <a href="#contact" class="nav-link">Kontakti & Rreth Nesh</a>
+        </nav>
+        <a href="#" class="chat-btn">
+          <svg
+            class="chat-icon"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2ZM20 16H6L4 18V4H20V16Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span>Na shkruani</span>
+        </a>
       </div>
-      <div class="sidebar-item">
-      <div class="title-container">
-    <p id="title"></p>
-      </div>
-        <p>Scroll Harmony</p>
-      </div>
-    </div>
-    <div>
-      <h1 class="headi" data-value="Lucidity">Lucidity</h1>
-    </div>
+    </header>
 
+    <main>
+      <section class="hero-section">
+        <div class="container hero-flex">
+          <h1 class="hero-headline">Rreth 150,000 vetura</h1>
+          <div class="epic-wrapper">
+            <span class="epic-text">EPIC</span>
+            <img src="img/benz.svg" alt="Hero Car" class="hero-svg-img" />
+          </div>
+        </div>
+      </section>
 
-    <div class="slider">
-      <div class="slider-wrapper">
-        <div class="slide">
-          <img src="./assests/1.png" alt="/X4T7METASPECTRA">
+      <section class="intro-section">
+        <div class="container">
+          <div class="intro-content">
+            <p class="intro">
+              Vetura të përzgjedhura me kujdes, direkt nga Koreja e Jugut. Ne
+              sjellim në Kosovë Vetura të certifikuara, duke u fokusuar te
+              cilësia, origjinaliteti dhe siguria. Çdo veturë kalon një proces
+              të detajuar inspektimi dhe verifikimi, për të garantuar që ju të
+              merrni vetëm më të mirën. Me një proces importi të thjeshtë,
+              transparent dhe pa stres, ne kujdesemi për çdo hap – nga
+              përzgjedhja e veturës në Kore deri te dorëzimi i saj në Kosovë.
+              Zgjidhni sigurinë, transparencën dhe përvojën – zgjidhni veturën
+              tuaj të ardhshme me ne.
+            </p>
+          </div>
         </div>
-        <div class="slide">
-          <img src="./assests/2.png" alt="/NEBULABYTE9">
+      </section>
+
+      <!-- Add this after your intro-section -->
+      <section class="process-carousel" id="process">
+        <div class="container">
+          <h2 class="process-title">Hapat e Blerjes</h2>
+
+          <div class="carousel-wrapper">
+            <div class="carousel-slides">
+              <!-- First slide should have 'current' class -->
+              <div class="carousel-slide current">
+                <span class="step-number">1</span>
+                <p>
+                  Në platformën tonë, fillimisht kërkoni dhe përzgjedhni veturën
+                  që dëshironi ta porositni nga Korea.
+                </p>
+              </div>
+              <div class="carousel-slide">
+                <span class="step-number">2</span>
+                <p>
+                  Pas përzgjedhjes së veturës, rezervoni veturën duke plotësuar
+                  formularin me të dhënat tuaja të kontaktit.
+                </p>
+              </div>
+              <div class="carousel-slide">
+                <span class="step-number">3</span>
+                <p>
+                  Më pas, ekipi ynë do t’ju kontaktojë ndërmjet telefonit për ta
+                  konfirmuar porosinë.
+                </p>
+              </div>
+              <div class="carousel-slide">
+                <span class="step-number">4</span>
+                <p>
+                  Pas konfirmimit, stafi ynë i ekspertëve në Kore do të shkoj ta
+                  kontrollojë dhe inspektojë veturën në detaje.
+                </p>
+              </div>
+              <div class="carousel-slide">
+                <span class="step-number">5</span>
+                <p>
+                  Pas kësaj, ne do t'ju prezantojmë gjendjen reale të veturës
+                  nga rezultatet e inspektimit dhe kontrollimit të detajuar.
+                </p>
+              </div>
+              <div class="carousel-slide">
+                <span class="step-number">6</span>
+                <p>
+                  Pasi të vendosni ta bleni veturën, realizohet pagesa dhe
+                  nënshkruhet kontrata e cila përfshinë edhe garancionin e
+                  veturës.
+                </p>
+              </div>
+              <div class="carousel-slide">
+                <span class="step-number">7</span>
+                <p>
+                  Brenda 35-40 ditësh, vetura mbërrin në Prishtinë dhe ne ju
+                  dorëzojmë çelësat e saj.
+                </p>
+              </div>
+            </div>
+
+            <button class="carousel-btn prev" aria-label="Previous slide">
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <button class="carousel-btn next" aria-label="Next slide">
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z" />
+              </svg>
+            </button>
+          </div>
+
+          <div class="carousel-dots"></div>
         </div>
-        <div class="slide">
-          <img src="./assests/3.png" alt="/ZEPHYRX808">
+      </section>
+
+      <!-- Vehicle Search Section -->
+      <section class="vehicles-section" id="vehicles">
+        <div class="container">
+          <h2 class="section-title">Kërko Veturën</h2>
+          <div class="search-filters">
+            <input
+              type="text"
+              placeholder="Kërko sipas markës, modelit..."
+              class="search-input"
+            />
+            <select class="filter-select">
+              <option value="">Të gjitha markat</option>
+              <option value="mercedes">Mercedes-Benz</option>
+              <option value="bmw">BMW</option>
+              <option value="audi">Audi</option>
+            </select>
+            <select class="filter-select">
+              <option value="">Çmimi</option>
+              <option value="0-10000">0 - 10,000€</option>
+              <option value="10000-20000">10,000€ - 20,000€</option>
+              <option value="20000+">20,000€ +</option>
+            </select>
+          </div>
+
+          <div class="vehicles-grid">
+            <!-- Example Vehicle Cards -->
+            <div class="vehicle-card">
+              <div class="vehicle-image">
+                <img
+                  src="img/placeholder-car.jpg"
+                  alt="Mercedes-Benz C-Class"
+                />
+                <span class="vehicle-price">35,000€</span>
+              </div>
+              <div class="vehicle-info">
+                <h3>Mercedes-Benz C-Class</h3>
+                <div class="vehicle-specs">
+                  <span>2023</span>
+                  <span>15,000 km</span>
+                  <span>Diesel</span>
+                </div>
+                <div class="vehicle-features">
+                  <span>Automatic</span>
+                  <span>2.0L</span>
+                  <span>194hp</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Add more vehicle cards as needed -->
+          </div>
         </div>
-        <div class="slide">
-          <img src="./assests/4.png" alt="/HYPERNOVA16K">
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h2>Na Kontaktoni</h2>
+              <p>
+                Jemi këtu për t'ju ndihmuar në çdo hap të procesit të blerjes së
+                veturës suaj.
+              </p>
+
+              <div class="contact-details">
+                <div class="contact-item">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <a href="mailto:info@koreaoriginimports.com"
+                    >info@koreaoriginimports.com</a
+                  >
+                </div>
+
+                <div class="contact-item">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M20 15.5C18.8 15.5 17.5 15.3 16.4 14.9C16.3 14.9 16.2 14.9 16.1 14.9C15.8 14.9 15.6 15 15.4 15.2L13.2 17.4C10.4 15.9 8 13.6 6.6 10.8L8.8 8.6C9.1 8.3 9.2 7.9 9 7.6C8.7 6.5 8.5 5.2 8.5 4C8.5 3.5 8 3 7.5 3H4C3.5 3 3 3.5 3 4C3 13.4 10.6 21 20 21C20.5 21 21 20.5 21 20V16.5C21 16 20.5 15.5 20 15.5ZM19 12H21C21 7 16.97 3 12 3V5C15.87 5 19 8.13 19 12ZM15 12H17C17 9.24 14.76 7 12 7V9C13.66 9 15 10.34 15 12Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <a href="tel:+38344123456">+383 44 123 456</a>
+                </div>
+
+                <div class="contact-item">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span>Pristina, Kosovo</span>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">Emri</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Mesazhi</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">Dërgo Mesazhin</button>
+            </form>
+          </div>
         </div>
-        <div class="slide">
-          <img src="./assests/5.png" alt="/PROJECTVX42">
-        </div>
-        <div class="slide">
-          <img src="./assests/6.png" alt="/NANOGLIDEX57">
-        </div>
-        <div class="slide">
-          <img src="./assests/7.png" alt="/ZEPHYRBYTE8K">
-        </div>
-        <div class="slide">
-          <img src="./assests/8.png" alt="/QUANTUMVORTEX66X">
-        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container">
+        <p>&copy; 2025 Korea Origin Imports. All rights reserved.</p>
       </div>
-    </div>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-      defer
-    ></script>
-    <script src="/app.js" defer></script>
+    </footer>
   </body>
 </html>
